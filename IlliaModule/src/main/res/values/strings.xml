@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">IlliaLayout</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string-array name="emails">
+        <item>Illiahumberpop@gmail.com</item>
+        <item>Illia.Popov@hamber.ca</item>
+        <item>Illia.M.Popov@gmail.com</item>
+        <item>Myrza@gmail.com</item>
+        <item>Example.Test@hamber.ca</item>
+        <item>abc@abc.com</item>
+    </string-array>
+    <string name="n_data">No DATA</string>
+    <string name="empty">empty</string>
+    <string name="invalid">invalid</string>
 </resources>
