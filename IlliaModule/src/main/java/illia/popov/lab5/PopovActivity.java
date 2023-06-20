@@ -30,11 +30,21 @@ public class PopovActivity extends AppCompatActivity implements TabLayoutMediato
         titles.add("Home");
         titles.add("Settings");
         titles.add("Favorites");
+        setViewPagerAdapter();
 
         new TabLayoutMediator(tabLayout, viewPager2, this).attach();
     }
 
+    public void setViewPagerAdapter() {
+        ViewPager2Adapter viewPager2Adapter = new ViewPager2Adapter(this);
+        ArrayList<Fragment> fragmentList = new ArrayList<>(); //creates an ArrayList of Fragments
+        fragmentList.add(new HomeFragment());
+        fragmentList.add(new SettingsFragment());
+        fragmentList.add(new FavoritesFragment());
+        viewPager2Adapter.setData(fragmentList); //sets the data for the adapter
+        viewPager2.setAdapter(viewPager2Adapter);
 
+    }
 
     @Override
     public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
