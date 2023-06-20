@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -19,7 +20,12 @@ import com.google.android.material.snackbar.Snackbar;
 public class SettingsFragment extends Fragment {
 
     public SettingsFragment() {
-        // Required empty public constructor
+    }
+    @Override
+    public void onPause() {
+        super.onPause();
+        String message = "n01421791";
+        Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
     }
 
     @Override

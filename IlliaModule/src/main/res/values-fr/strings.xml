@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IlliaLayout</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="submit">Soumettre</string>
+    <string name="email">Email</string>
+    <string-array name="emails">
+        <item>Illiahumberpop@gmail.com</item>
+        <item>Illia.Popov@hamber.ca</item>
+        <item>Illia.M.Popov@gmail.com</item>
+        <item>Myrza@gmail.com</item>
+        <item>Example.Test@hamber.ca</item>
+        <item>abc@abc.com</item>
+    </string-array>
+    <string name="n_data">Pas de données</string>
+    <string name="empty">vide</string>
+    <string name="invalid">invalide</string>
+    <string name="on">Activé</string>
+    <string name="off">Désactivé</string>
+
+    <string name="close">fermer</string>
+    <string name="name">Illia M. Popov | n01421791</string>
+
+</resources>
